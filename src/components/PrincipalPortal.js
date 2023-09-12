@@ -13,8 +13,8 @@ import { LuCalendarDays } from "react-icons/lu";
 
 const PrincipalPortal = () => {
   return (
-    <div className=" flex justify-between  items-center  bg-stone-300 p-20 ">
-      <div className="flex flex-col justify-between items-start mr-10  ">
+    <div className=" flex justify-center  items-center  bg-stone-300 p-10">
+      <div className="flex flex-col justify-between items-start p-10  ">
         <img className="w-60 h-60" src={Logo} alt="logo" />
         <div>
           <h1 className="w-96 h-24 text-center text-neutral-800 text-6xl font-semibold capitalize">
@@ -30,7 +30,7 @@ const PrincipalPortal = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-5 ">
+      <div className="flex flex-wrap justify-between items-center gap-4 pr-10  ">
         {/* <div className="  flex flex-col justify-center items-center w-56 h-56 bg-purple-500 rounded-3xl ">
           <div className= "bg-white h-24 w-24 rounded-full flex justify-center items-center ">
             <FaSchoolFlag className= 'text-3xl'/>
