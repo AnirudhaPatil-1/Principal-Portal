@@ -12,26 +12,28 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BiRun } from "react-icons/bi";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 
-
-
-
-import BgImage from "../assets/BackgroundForestImage.jpeg"
+import BgImage from "../assets/BackgroundForestImage.jpeg";
 
 const Actions = () => {
   return (
     <div className="bg-white p-20 relative ">
-      <img className="absolute w-[1440px] h-[340px] top-0 left-0 object-cover opacity-50" src={BgImage} alt="Background" />
+      <img
+        className="absolute w-[1440px] h-[340px] top-0 left-0 object-cover opacity-50"
+        src={BgImage}
+        alt="Background"
+      />
       <div className=" flex justify-between items-center py-20 z-10">
         <div className=" text-center text-gray-900 text-4xl font-semibold capitalize">
           Actions
         </div>
+
+        
+
         <div className=" w-72 h-20 rounded-full shadow border border-gray-500 border-opacity-20 flex justify-start items-center bg-opacity-40">
           <div className=" ">
             <CiSearch className=" border-gray-500 w-6 h-6 mx-4" />
           </div>
-          <div className="Search  text-opacity-75 text-lg font-normal">
-            Search
-          </div>
+          <input className="" type="text"></input>
         </div>
       </div>
 
@@ -49,7 +51,7 @@ const Actions = () => {
             <AiOutlineClockCircle className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          Business Continuity Plan UploadHelp icon  
+            Business Continuity Plan UploadHelp icon
           </div>
         </div>
         <div className=" w-80 h-32 bg-white rounded-xl shadow flex justify-around items-center gap-1">
@@ -57,7 +59,7 @@ const Actions = () => {
             <AiOutlineClockCircle className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          School Closure Toolkit #1Help icon  
+            School Closure Toolkit #1Help icon
           </div>
         </div>
         <div className=" w-80 h-32 bg-white rounded-xl shadow flex justify-around items-center gap-1">
@@ -73,7 +75,7 @@ const Actions = () => {
             <BiRun className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          Business Continuity Plan UploadHelp icon  
+            Business Continuity Plan UploadHelp icon
           </div>
         </div>
         <div className=" w-80 h-32 bg-white rounded-xl shadow flex justify-around items-center gap-1">
@@ -81,7 +83,7 @@ const Actions = () => {
             <LuFileSpreadsheet className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          School Closure Toolkit #1Help icon  
+            School Closure Toolkit #1Help icon
           </div>
         </div>
         <div className=" w-80 h-32 bg-white rounded-xl shadow flex justify-around items-center gap-1">
@@ -97,7 +99,7 @@ const Actions = () => {
             <RiTeamLine className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          Business Continuity Plan UploadHelp icon  
+            Business Continuity Plan UploadHelp icon
           </div>
         </div>
         <div className=" w-80 h-32 bg-white rounded-xl shadow flex justify-around items-center gap-1">
@@ -105,13 +107,10 @@ const Actions = () => {
             <LuFileSpreadsheet className="w-10 h-10 text-white" />
           </div>
           <div className=" w-56 text-black text-base font-medium capitalize">
-          School Closure Toolkit #1Help icon  
+            School Closure Toolkit #1Help icon
           </div>
         </div>
       </div>
-
-
-      
     </div>
   );
 };
