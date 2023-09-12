@@ -22,14 +22,19 @@ const Certifications = () => {
         <CertificationsCard />
         <CertificationsCard />
         <div className="">
-          <div className=" w-48 h-20 bg-amber-400 rounded-xl shadow flex justify-center items-center text-emerald-white gap-2 ">
-            <div className="  Heading text-center text-white text-base font-medium capitalize">
-              View More
+          <button
+            className="w-48 h-20 bg-yellow-500 rounded-xl shadow transition hover:bg-yellow-600 cursor-pointer"
+            type="button"
+          >
+            <div className=" flex justify-center items-center text-emerald-white gap-2 mx-auto">
+              <div className="Heading text-center text-white text-base font-medium capitalize">
+                View More
+              </div>
+              <div>
+                <img src={ViewMore} alt="view more" />
+              </div>
             </div>
-            <div>
-              <img src={ViewMore} alt="view more" />
-            </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
