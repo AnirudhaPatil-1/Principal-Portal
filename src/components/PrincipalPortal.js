@@ -21,10 +21,10 @@ const PrincipalPortal = () => {
             PrincipalPortal
           </h1>
         </div>
-        <div className=" w-96 h-20 flex justify-start items-center bg-white rounded-full shadow border border-stone-300">
-          <CiSearch className=" w-6 h-6 mx-4" />
+        <div className="w-96 h-20 flex justify-start items-center bg-white rounded-full shadow border border-stone-300">
+          <CiSearch className="w-6 h-6 mx-4" />
           <input
-            className="text-zinc-800"
+            className="pl-10 pr-4 py-2 w-full text-zinc-800 outline-none bg-transparent text-left"
             placeholder="What are you looking for"
           />
         </div>
@@ -52,7 +52,7 @@ const PrincipalPortal = () => {
         </div>
         <div className="  flex flex-col justify-center items-center w-56 h-56 bg-blue-500 rounded-3xl gap-y-4 ">
           <div className="bg-white h-24 w-24 rounded-full flex justify-center items-center ">
-            <FaLocationDot  className="w-16 h-16" />
+            <FaLocationDot className="w-16 h-16" />
           </div>
           <p className="font-xl font-medium text-white">District OPS</p>
         </div>
@@ -80,8 +80,6 @@ const PrincipalPortal = () => {
           </div>
           <p className="font-xl font-medium text-white">Whats New</p>
         </div>
-
-
       </div>
     </div>
   );
