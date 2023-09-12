@@ -38,9 +38,12 @@ const SafeSteps = () => {
             src={WomenReading}
             alt="women reading"
           />
-          <div className="w-32 h-11 bg-emerald-500 rounded-3xl shadow absolute flex justify-center items-center bottom-1/4 left-1/4">
-            <div className="text-white text-sm font-medium">New</div>
-          </div>
+          <button className=" absolute w-32 h-11 bg-emerald-500 hover:bg-emerald-600 hover:cursor-pointer rounded-3xl shadow bottom-1/4 left-1/4">
+            <div className="  flex justify-center items-center ">
+              <div className="text-white text-sm font-medium">New</div>
+            </div>
+          </button>
+
           <div className="w-48 text-center text-gray-900 text-base font-semibold capitalize ">
             Back To School Family GuideHelp icon
           </div>
@@ -51,11 +54,13 @@ const SafeSteps = () => {
             src={GratuatingStudent}
             alt="women reading"
           />
-          <div className="w-32 h-11 bg-emerald-500 rounded-3xl shadow absolute flex justify-center items-center bottom-1/4 left-1/4">
-            <div className="text-white text-sm font-medium">New</div>
-          </div>
+          <button className=" absolute w-32 h-11 bg-emerald-500 hover:bg-emerald-600 hover:cursor-pointer rounded-3xl shadow bottom-1/4 left-1/4">
+            <div className="  flex justify-center items-center ">
+              <div className="text-white text-sm font-medium">New</div>
+            </div>
+          </button>
           <div className="w-48 text-center text-gray-900 text-base font-semibold capitalize">
-          COVID Emergency PreparednessHelp icon
+            COVID Emergency PreparednessHelp icon
           </div>
         </div>
         <div className="w-72 h-80 bg-white rounded-xl shadow p-3 relative flex flex-col justify-evenly items-center">
@@ -64,11 +69,13 @@ const SafeSteps = () => {
             src={MultiEthnicGroup}
             alt="women reading"
           />
-          <div className="w-32 h-11 bg-emerald-500 rounded-3xl shadow absolute flex justify-center items-center bottom-1/4 left-1/4">
-            <div className="text-white text-sm font-medium">New</div>
-          </div>
+          <button className=" absolute w-32 h-11 bg-emerald-500 hover:bg-emerald-600 hover:cursor-pointer rounded-3xl shadow bottom-1/4 left-1/4">
+            <div className="  flex justify-center items-center ">
+              <div className="text-white text-sm font-medium">New</div>
+            </div>
+          </button>
           <div className="w-48 text-center text-gray-900 text-base font-semibold capitalize">
-          COVID-19 ResourcesHelp icon
+            COVID-19 ResourcesHelp icon
           </div>
         </div>
         <div className="w-72 h-80 bg-white rounded-xl shadow p-3 relative flex flex-col justify-evenly items-center">
@@ -77,11 +84,13 @@ const SafeSteps = () => {
             src={GratuatingStudentEnjoy}
             alt="women reading"
           />
-          <div className="w-32 h-11 bg-emerald-500 rounded-3xl shadow absolute flex justify-center items-center bottom-1/4 left-1/4">
-            <div className="text-white text-sm font-medium">New</div>
-          </div>
+          <button className=" absolute w-32 h-11 bg-emerald-500 hover:bg-emerald-600 hover:cursor-pointer rounded-3xl shadow bottom-1/4 left-1/4">
+            <div className="  flex justify-center items-center ">
+              <div className="text-white text-sm font-medium">New</div>
+            </div>
+          </button>
           <div className="w-48 text-center text-gray-900 text-base font-semibold capitalize">
-          Early Education ProgramsHelp icon
+            Early Education ProgramsHelp icon
           </div>
         </div>
       </div>

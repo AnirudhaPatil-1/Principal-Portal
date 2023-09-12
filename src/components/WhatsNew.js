@@ -54,14 +54,19 @@ const WhatsNew = () => {
             </div>
           </div>
           <div className="text-center mt-5">
-            <div className="w-48 h-20 bg-emerald-500 rounded-xl shadow flex justify-center items-center text-emerald-white gap-2 mx-auto">
-              <div className="Heading text-center text-white text-base font-medium capitalize">
-                View More
+            <button
+              className="  w-48 h-20 bg-emerald-500 rounded-xl shadow transition hover:bg-emerald-600 cursor-pointer "
+              type="button"
+            >
+              <div className=" flex justify-center items-center text-emerald-white gap-2 mx-auto">
+                <div className="Heading text-center text-white text-base font-medium capitalize">
+                  View More
+                </div>
+                <div>
+                  <img src={ViewMore} alt="view more" />
+                </div>
               </div>
-              <div>
-                <img src={ViewMore} alt="view more" />
-              </div>
-            </div>
+            </button>
           </div>
         </div>
         <div className=" flex flex-wrap justify-evenly items-start gap-y-5">

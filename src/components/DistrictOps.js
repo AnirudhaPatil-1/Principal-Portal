@@ -103,14 +103,19 @@ const DistrictOps = () => {
 
 
       <div className="text-center mt-20">
-        <div className="w-48 h-20 bg-blue-600 rounded-xl shadow flex justify-center items-center text-emerald-white gap-2 mx-auto">
-          <div className=" text-center text-white text-base font-medium capitalize">
-            View More
-          </div>
-          <div>
-            <img src={ViewMore} alt="view more" />
-          </div>
-        </div>
+      <button
+              className="  w-48 h-20 bg-blue-500 rounded-xl shadow transition hover:bg-blue-600 cursor-pointer "
+              type="button"
+            >
+              <div className=" flex justify-center items-center text-emerald-white gap-2 mx-auto">
+                <div className="Heading text-center text-white text-base font-medium capitalize">
+                  View More
+                </div>
+                <div>
+                  <img src={ViewMore} alt="view more" />
+                </div>
+              </div>
+            </button>
       </div>
     </div>
   );
