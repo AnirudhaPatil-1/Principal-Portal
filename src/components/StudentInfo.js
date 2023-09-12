@@ -112,6 +112,14 @@ const StudentInfo = () => {
               Amplify/DibelsHelp icon
             </div>
           </div>
+          <div className=" w-80 h-20 bg-white rounded-2xl border border-gray-950 border-opacity-10 shadow-lg flex justify-start items-center gap-3 pl-3">
+            <div className="w-12 h-12 bg-red-500 rounded-full flex justify-center items-center  ">
+              <PiStudentBold className=" text-white w-8 h-8" />
+            </div>
+            <div className=" text-black text-base font-medium leading-tight">
+              Amplify/DibelsHelp icon
+            </div>
+          </div>
 
         </div>
       </div>
