@@ -17,13 +17,12 @@ const SchoolTools = () => {
         <div className=" text-center text-white text-4xl font-semibold capitalize">
           School Tools
         </div>
-        <div className=" w-72 h-20 rounded-full shadow border border-stone-300 border-opacity-20 flex justify-start items-center">
-          <div className=" ">
-            <CiSearch className=" text-white w-6 h-6 mx-4" />
-          </div>
-          <div className="Search text-white text-opacity-75 text-lg font-normal">
-            Search
-          </div>
+        <div className="w-72 h-20 rounded-full shadow border border-gray-100 border-opacity-20 flex justify-start items-center bg-opacity-75 bg-slate-500 ">
+          <CiSearch className=" text-gray-300  mx-4 w-10 h-10 text-lg" />
+          <input
+            className="pl-10 pr-4 py-2 w-full text-zinc-800 outline-none bg-transparent text-left text-opacity-75 text-lg font-normal  "
+            placeholder="Search "
+          />
         </div>
       </div>
 

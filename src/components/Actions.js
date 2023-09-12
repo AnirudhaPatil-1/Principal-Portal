@@ -29,11 +29,12 @@ const Actions = () => {
 
         
 
-        <div className=" w-72 h-20 rounded-full shadow border border-gray-500 border-opacity-20 flex justify-start items-center bg-opacity-40">
-          <div className=" ">
-            <CiSearch className=" border-gray-500 w-6 h-6 mx-4" />
-          </div>
-          <input className="" type="text"></input>
+        <div className=" z-1 w-72 h-20 rounded-full shadow border border-white border-opacity-20 flex justify-start items-center ">
+          <CiSearch className="text-lg text-white w-10 h-10 mx-4" />
+          <input
+            className="pl-10 pr-4 py-2 w-full text-zinc-800 outline-none bg-transparent text-left text-opacity-75 text-lg font-normal"
+            placeholder="Search "
+          />
         </div>
       </div>
 

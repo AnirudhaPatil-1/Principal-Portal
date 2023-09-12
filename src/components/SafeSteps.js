@@ -21,13 +21,12 @@ const SafeSteps = () => {
         <div className=" text-center text-gray-900 text-4xl font-semibold capitalize">
           Safe Steps To Safe Schools
         </div>
-        <div className=" w-72 h-20 rounded-full shadow border border-gray-500 border-opacity-20 flex justify-start items-center">
-          <div className=" ">
-            <CiSearch className=" border-gray-500 w-6 h-6 mx-4" />
-          </div>
-          <div className="Search  text-opacity-75 text-lg font-normal">
-            Search
-          </div>
+        <div className="w-72 h-20 rounded-full shadow border border-gray-500 border-opacity-20 flex justify-start items-center bg-white ">
+          <CiSearch className="text-lg text-black -300 w-10 h-10 mx-4" />
+          <input
+            className="pl-10 pr-4 py-2 w-full  outline-none bg-transparent text-left text-opacity-75 text-lg font-normal"
+            placeholder="Search "
+          />
         </div>
       </div>
 
